@@ -3364,7 +3364,7 @@ input, select, textarea {
 	{
 		content: "";
 		animation-name: textSlideH2BSProject;
-		animation-duration: 10s;
+		animation-duration: 30s;
 		animation-iteration-count: infinite;
 		animation-fill-mode: forwards;	
 	}
@@ -3377,7 +3377,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		margin: 50px auto;
 		animation-name: slideH2BSProject;
-		animation-duration: 10s;
+		animation-duration: 30s;
 		animation-iteration-count: infinite;
 		animation-fill-mode: forwards;	
 	}
@@ -3407,6 +3407,122 @@ input, select, textarea {
 	}
 
 	@keyframes textSlideH2BSProject 
+	{
+		0%{	
+			content: "Trello Week 9 Plan";	
+		}
+		25%{
+			content: "Trello Week 9 Plan";	
+		}
+		50%{
+			content: "Trello Week 10 Plan";	
+		}
+		75%{
+			content: "Trello Week 11 Plan";	
+		}
+		100%{
+			content: "Trello Week 12 Plan";	
+		}
+	}
+
+	.textPocketGarden ::before
+	{
+		content: "";
+		animation-name: textSlidePocketGarden;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;	
+	}
+
+	.sliderPocketGarden
+	{
+		width: 560px;
+		height: 315px;
+		background: url("images/Pocket Garden Main Menu.PNG");
+		background-repeat: no-repeat;
+		margin: 50px auto;
+		animation-name: slidePocketGarden;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;	
+	}
+	
+	@keyframes slidePocketGarden
+	{
+		0%{	
+			background: url("images/Pocket Garden Main Menu.PNG");
+			background-repeat: no-repeat;		
+		}
+		25%{
+			background: url("images/Pocket Garden Gameplay 01.PNG");
+			background-repeat: no-repeat;
+		}
+		50%{
+			background: url("images/Pocket Garden Gameplay 02.PNG");
+			background-repeat: no-repeat;
+		}		
+	}
+
+	@keyframes textSlidePocketGarden
+	{
+		0%{	
+			content: "Main Menu";	
+		}
+		25%{
+			content: "Pocket Garden Gameplay 01";	
+		}
+		50%{
+			content: "Pocket Garden Gameplay 02";	
+		}		
+	}
+
+	.textTLSL ::before
+	{
+		content: "";
+		animation-name: textSlideTLSL;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;	
+	}
+
+	.sliderTLSL
+	{
+		width: 560px;
+		height: 315px;
+		background: url("images/Week 9 Plan.png");
+		background-repeat: no-repeat;
+		margin: 50px auto;
+		animation-name: slideTLSL;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;	
+	}
+	
+	@keyframes slideTLSL
+	{
+		0%{	
+			background: url("images/Week 9 Plan.png");
+			background-repeat: no-repeat;		
+		}
+		25%{
+			background: url("images/Week 9 Plan.png");
+			background-repeat: no-repeat;
+		}
+		50%{
+			background: url("images/Week 10 Plan.png");
+			background-repeat: no-repeat;
+		}
+		75%{
+			background: url("images/Week 11 Plan.png");
+			background-repeat: no-repeat;
+		}
+		100%{
+			background: url("images/Week 12 Plan.png");
+			background-repeat: no-repeat;
+		}
+	}
+
+	@keyframes textSlideTLSL
 	{
 		0%{	
 			content: "Trello Week 9 Plan";	
