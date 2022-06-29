@@ -3373,7 +3373,7 @@ input, select, textarea {
 	{
 		width: 560px;
 		height: 315px;
-		background: url("images/Week 9 Plan.png");
+		background: url("images/H2BS Main Menu.PNG");
 		background-repeat: no-repeat;
 		margin: 50px auto;
 		animation-name: slideH2BSProject;
@@ -3385,23 +3385,19 @@ input, select, textarea {
 	@keyframes slideH2BSProject 
 	{
 		0%{	
-			background: url("images/Week 9 Plan.png");
+			background: url("images/H2BS Main Menu.PNG");
 			background-repeat: no-repeat;		
 		}
 		25%{
-			background: url("images/Week 9 Plan.png");
+			background: url("images/H2BS Custom Game.PNG");
 			background-repeat: no-repeat;
 		}
 		50%{
-			background: url("images/Week 10 Plan.png");
+			background: url("images/H2BS Gameplay 01.PNG");
 			background-repeat: no-repeat;
 		}
 		75%{
-			background: url("images/Week 11 Plan.png");
-			background-repeat: no-repeat;
-		}
-		100%{
-			background: url("images/Week 12 Plan.png");
+			background: url("images/H2BS Gameplay 02.PNG");
 			background-repeat: no-repeat;
 		}
 	}
@@ -3409,20 +3405,17 @@ input, select, textarea {
 	@keyframes textSlideH2BSProject 
 	{
 		0%{	
-			content: "Trello Week 9 Plan";	
+			content: "Main Menu";	
 		}
 		25%{
-			content: "Trello Week 9 Plan";	
+			content: "Custom Game";	
 		}
 		50%{
-			content: "Trello Week 10 Plan";	
+			content: "Gameplay 01";	
 		}
 		75%{
-			content: "Trello Week 11 Plan";	
-		}
-		100%{
-			content: "Trello Week 12 Plan";	
-		}
+			content: "Gameplay 02";	
+		}		
 	}
 
 	.textPocketGarden ::before
@@ -3489,7 +3482,7 @@ input, select, textarea {
 	{
 		width: 560px;
 		height: 315px;
-		background: url("images/Week 9 Plan.png");
+		background: url("images/TLSL Main Menu.PNG");
 		background-repeat: no-repeat;
 		margin: 50px auto;
 		animation-name: slideTLSL;
@@ -3501,42 +3494,28 @@ input, select, textarea {
 	@keyframes slideTLSL
 	{
 		0%{	
-			background: url("images/Week 9 Plan.png");
+			background: url("images/TLSL Main Menu.PNG");
 			background-repeat: no-repeat;		
 		}
 		25%{
-			background: url("images/Week 9 Plan.png");
+			background: url("images/TLSL Gameplay 01.PNG");
 			background-repeat: no-repeat;
 		}
 		50%{
-			background: url("images/Week 10 Plan.png");
+			background: url("images/TLSL Gameplay 02.PNG");
 			background-repeat: no-repeat;
-		}
-		75%{
-			background: url("images/Week 11 Plan.png");
-			background-repeat: no-repeat;
-		}
-		100%{
-			background: url("images/Week 12 Plan.png");
-			background-repeat: no-repeat;
-		}
+		}		
 	}
 
 	@keyframes textSlideTLSL
 	{
 		0%{	
-			content: "Trello Week 9 Plan";	
+			content: "TLSL Main Menu";	
 		}
 		25%{
-			content: "Trello Week 9 Plan";	
+			content: "TLSL Gameplay 01";	
 		}
 		50%{
-			content: "Trello Week 10 Plan";	
-		}
-		75%{
-			content: "Trello Week 11 Plan";	
-		}
-		100%{
-			content: "Trello Week 12 Plan";	
-		}
+			content: "TLSL Gameplay 02";	
+		}		
 	}
