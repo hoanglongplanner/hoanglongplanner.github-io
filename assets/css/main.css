@@ -2676,8 +2676,8 @@ input, select, textarea {
 	#banner {
 		background-image: url("../../images/profilepicture.jpg");
 		background-position: center center;
-		background-size: 600px;
-		height: 470px;
+		background-size: 256px;
+		height: 256 px;
 		text-align: center;
 		position: relative;
 		background-repeat: no-repeat;
