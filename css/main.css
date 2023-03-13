@@ -613,7 +613,7 @@ section .row span {
   flex-wrap: wrap;
 }
 #projects .project-wrapper__image {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 @media (max-width: 75em) {
@@ -639,5 +639,12 @@ section .row span {
     margin-bottom: 3.2rem;
     transform: none;
   }
+}
+
+.card {
+  background: white;
+  width: 256px;
+  height: 256px;
+  margin: 10px;
 }
 
