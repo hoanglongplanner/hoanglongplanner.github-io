@@ -1,0 +1,17 @@
+@import url("pico.css");
+@import url("fontawesome-all.min.css");
+
+.image-center {
+  width: 256px;
+  height: 256px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
